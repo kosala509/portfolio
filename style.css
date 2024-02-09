@@ -12,7 +12,7 @@
     --text-color: #fff;
     --bg-color: #1b1f24;
     --second-bg-color: #22282f;
-    --main-color: #13bbff;
+    --main-color: #eaa031;
     --other-color: #c3cad5;
 
     --h1-font: 4.5rem;
@@ -240,7 +240,7 @@ header.sticky{
     font-size: var(--h2-font);
 }
 
-.services-content{
+.blogs-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     align-items: center;
@@ -249,6 +249,7 @@ header.sticky{
 }
 
 .box{
+    height: 100%;
     padding: 80px 40px 66px;
     background: #2d343f;
     border-radius: 28px;
@@ -260,6 +261,7 @@ header.sticky{
 
 .box img{
     margin-bottom: 20px;
+    border-radius: 50%;
 }
 
 .box h3{
@@ -353,7 +355,7 @@ header.sticky{
     font-size: 27px;
     border-radius: 50%;
     color: var(--text-color);
-    background: #075fe4;
+    background: #000000;
 }
 
 .row h4{
@@ -439,7 +441,7 @@ form .send-btn:hover{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: #075fe4;
+    background: #eaa031;
     width: 45px;
     height: 45px;
     border-radius: 50%;
